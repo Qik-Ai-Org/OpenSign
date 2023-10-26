@@ -37,7 +37,6 @@
     "razorpay": "^2.8.6",
     "request": "^2.88.2"
   },
-  "type": "module",
   "devDependencies": {
     "@babel/eslint-parser": "7.21.3",
     "eslint": "8.38.0",
