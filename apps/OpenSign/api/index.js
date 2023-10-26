@@ -56,7 +56,7 @@ export const config = {
     module: 'parse-server-api-mail-adapter',
     options: {
       // The email address from which emails are sent.
-      sender: process.env.MAILGUN_SENDER,
+      sender: 'aadasd@asasd.cc',
       // The email templates.
       templates: {
         // The template used by Parse Server to send an email for password
