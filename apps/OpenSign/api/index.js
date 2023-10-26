@@ -42,8 +42,7 @@ const mailgunClient = mailgun.client({
 const mailgunDomain = process.env.MAILGUN_DOMAIN;
 
 export const config = {
-  databaseURI:
-    process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb://localhost:27017/dev',
+  databaseURI:'mongodb://localhost:27017/dev',
   cloud: process.env.CLOUD || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'myAppId',
   masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
