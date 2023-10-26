@@ -43,13 +43,13 @@ const mailgunDomain = process.env.MAILGUN_DOMAIN;
 
 export const config = {
   databaseURI:'mongodb://localhost:27017/dev',
-  cloud: process.env.CLOUD || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'myAppId',
-  masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
+  cloud: '/cloud/main.js',
+  appId: 'myAppId',
+  masterKey: 'hhjjoooo', //Add your master key here. Keep it secret!
   masterKeyIps: ['0.0.0.0/0', '::1'], // '::1'
-  serverURL: process.env.SERVER_URL || 'http://localhost:8080/app', // Don't forget to change to https if needed
+  serverURL: 'http://localhost:8080/app', // Don't forget to change to https if needed
   // verifyUserEmails: true,
-  publicServerURL: process.env.SERVER_URL || 'http://localhost:8080/app',
+  publicServerURL: 'http://localhost:8080/app',
   // Your apps name. This will appear in the subject and body of the emails that are sent.
   appName: 'Open Sign',
   emailAdapter: {
