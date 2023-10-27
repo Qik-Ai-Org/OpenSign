@@ -75,8 +75,12 @@ export const config = {
         },
       },
       apiCallback: async function ({ payload, locale }) {
+        try{          
         const mailgunPayload = ApiPayloadConverter.mailgun(payload);
         await mailgunClient.messages.create(mailgunDomain, mailgunPayload);
+        }catch(err){
+          console.log("err",err)
+        }
       },
     },
   },
