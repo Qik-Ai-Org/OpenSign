@@ -3,7 +3,7 @@
 <div align="center">
 
 The free open source alternative to DocuSign | PandaDoc | SignNow | Adobe Sign | Smartwaiver | SignRequest | HelloSign | Zoho sign.
-
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/opensignlabs/opensign.svg)](http://isitmaintained.com/project/opensignlabs/opensign "Average time to resolve an issue")
 <a href="https://www.opensignlabs.com/">Website</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://www.opensignlabs.com">Docs</a>
