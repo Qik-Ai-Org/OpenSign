@@ -74,7 +74,7 @@ export const config = {
           htmlPath: './files/verification_email.html',
         },
       },
-      apiCallback: async ({ payload, locale }) => {
+      apiCallback: async function ({ payload, locale }) {
         const mailgunPayload = ApiPayloadConverter.mailgun(payload);
         await mailgunClient.messages.create(mailgunDomain, mailgunPayload);
       },
