@@ -6,6 +6,9 @@ The free open source alternative to DocuSign | PandaDoc | SignNow | Adobe Sign |
 
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/opensignlabs/opensign.svg)](http://isitmaintained.com/project/opensignlabs/opensign "Average time to resolve an issue")
 
+[![All Contributors](https://img.shields.io/github/all-contributors/opensignlabs/opensign?color=ee8449&style=flat-square)](#contributors)
+
+
 <a href="https://www.opensignlabs.com/">Website</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://www.opensignlabs.com">Docs</a>
