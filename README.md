@@ -88,5 +88,15 @@ OpenSign is licensed under the AGPL License. For more details, see the [LICENSE]
 ### Acknowledgments
 
 We would like to thank all our contributors and users for their support and feedback. Special thanks to [OpenSignLabs](https://github.com/OpenSignLabs) for spearheading this initiative.
-[![Stargazers repo roster for @opensignlabs/opensign](https://reporoster.com/stars/opensignlabs/opensign)](https://github.com/opensignlabs/opensign/stargazers)
 ---
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
